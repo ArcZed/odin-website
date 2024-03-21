@@ -12,6 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 48px;
+    margin: 0;
 }
 
 .logo {
@@ -39,12 +40,12 @@ a {
 }
 
 .intro img {
-    width: 400px;
+    width: 600px;
     margin: 50px
 }
 
 .title-container {
-    margin: 50px;
+    margin: 60px;
 }
 
 .title {
@@ -72,4 +73,44 @@ button:hover{
     background-color: #6da2f7;
     border: 2px solid #6da2f7;
     cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info img {
+    width: 180px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+}
+
+.info-text {
+    margin-top: 20px;
 }
