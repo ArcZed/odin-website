@@ -114,3 +114,25 @@ button:hover{
 .info-text {
     margin-top: 20px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+}
